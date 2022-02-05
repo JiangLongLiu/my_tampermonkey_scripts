@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili  获取时间戳URL，以便对照视频记录文字内容
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  按 t 就能在评论区插入带时间戳的 URL的 markdown连接了
 // @author       不知名网友
 // @match        https://www.bilibili.com/video/*
@@ -29,7 +29,7 @@
             var burl = window.location.href;
             burl= burl.split('?')[0]+'?t=';
             if (navigator.clipboard) {
-                navigator.clipboard.writeText('[xxx'+burl+']('+joinTimeStr+')');
+                navigator.clipboard.writeText('[xxx]('+burl+joinTimeStr+')');
             }
         }
     })
