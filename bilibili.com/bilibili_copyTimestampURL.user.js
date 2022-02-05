@@ -19,9 +19,6 @@
             e.preventDefault();
             console.log(e.target.value);
             var time = document.querySelectorAll('.bilibili-player-video-time-now')[0].innerHTML;
-            var comment = document.querySelectorAll('.ipt-txt')[0];
-           // comment.value = time + ' ';
-           // comment.focus();
             var timeYMSArr=time.split(':');
             var joinTimeStr='00h00m00s';
             if(timeYMSArr.length===3){
