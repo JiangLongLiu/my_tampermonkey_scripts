@@ -7,7 +7,7 @@
 // @match        https://www.bilibili.com/video/*
 // @icon         https://www.google.com/s2/favicons?domain=bilibili.com
 // @grant        none
-// @updateURL 
+// @updateURL    https://github.com/JiangLongLiu/my_tampermonkey_scripts/blob/master/bilibili.com/bilibili_copyTimestampURL.user.js
 // @license MIT
 // ==/UserScript==
 
