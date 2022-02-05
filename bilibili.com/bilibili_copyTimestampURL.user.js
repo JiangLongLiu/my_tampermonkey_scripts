@@ -2,7 +2,7 @@
 // @name         bilibili  获取时间戳URL，以便对照视频记录文字内容
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  先把评论加载出来，按u就能在评论区插入时间戳，并接着输入内容了。
+// @description  先把评论加载出来，按t就能在评论区插入时间戳，并接着输入内容了。
 // @author       You
 // @match        https://www.bilibili.com/video/*
 // @icon         https://www.google.com/s2/favicons?domain=bilibili.com
