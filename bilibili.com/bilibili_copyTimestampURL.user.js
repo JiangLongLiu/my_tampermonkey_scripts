@@ -2,7 +2,7 @@
 // @name         bilibili  获取时间戳URL，以便对照视频记录文字内容
 // @namespace    http://tampermonkey.net/
 // @version      0.8
-// @description  按 t 就能在评论区插入带时间戳的 URL的 markdown连接了
+// @description  按 t 就能复制带时间戳的 URL的 markdown连接了
 // @author       不知名网友
 // @match        https://www.bilibili.com/video/*
 // @icon         https://www.google.com/s2/favicons?domain=bilibili.com
