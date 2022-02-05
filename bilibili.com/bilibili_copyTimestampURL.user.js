@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         bilibili  获取时间戳URL，以便对照视频记录文字内容
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.3
 // @description  按 t 就能在评论区插入带时间戳的 URL 了
-// @author       You
+// @author       不知名网友
 // @match        https://www.bilibili.com/video/*
 // @icon         https://www.google.com/s2/favicons?domain=bilibili.com
 // @grant        none
